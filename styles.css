@@ -1,0 +1,97 @@
+body{
+  background-color: #ededed;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+text-align: center;
+}
+
+svg{
+}
+.face{
+  fill:rgba(0,0,0,0.7);
+
+}
+
+.start{
+  position:absolute;
+  top:0;
+  left:0;
+}
+.display-text{
+  user-select: none;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+
+.simon{
+  user-select: none;
+}
+
+.green{
+}
+
+.green-back, .red-back, .yellow-back, .blue-back{
+    transition:fill 0.4s cubic-bezier(.24,1.96,.48,.84);
+}
+
+.green-blur, .red-blur, .yellow-blur, .blue-blur{
+  transition: fill-opacity 0.1s;
+}
+
+.black{
+  display:none;
+}
+
+.green-top{
+}
+.green-edge{
+}
+
+.red-top{
+}
+.red-edge{
+}
+
+.blue-top{
+}
+
+.blue-edge{
+}
+
+.yellow-top{
+}
+
+.yellow-edge{
+}
+
+
+.green:active{
+  opacity:0;
+}
+
+.blue:active{
+  opacity:0;
+}
+
+.red:active{
+  opacity:0;
+}
+
+.yellow:active{
+  opacity:0;
+}
+
+.start{
+  width:200px;
+  height:50px;
+  font-size:30px;
+  font-family: 'Raleway', sans-serif;
+  left:50%;
+  margin-left:-100px;
+  top:370px;
+  transition:transform 1s;
+}
+.start:hover{
+  opacity:0.5;
+}
